@@ -5,6 +5,10 @@ body {
     background-attachment: fixed;
 }
 
+img{
+    height: 9em;
+}
+
 button {
     background-color: #6c8f8c; 
     color: white; 
@@ -35,10 +39,6 @@ button:focus {
     outline-offset: 2px; 
 }
 
-img{
-    height: 9em;
-}
-
 h3{
     font-size: 1.5em;
 }
@@ -65,4 +65,40 @@ header > p{
 
 #cuevas > p {
     font-size: 1.1em;
+}
+
+#talayots{
+    display: inline-block;
+}
+
+#necropolis{
+    display: inline-block;
+}
+
+#cuevas{
+    display: inline-block;
+}
+
+#sespaïses{
+    display: inline-block;
+}
+
+#saclova{
+    display: inline-block;
+}
+
+#capocorb{
+    display: inline-block;
+}
+
+#sonfornes{
+    display: inline-block;
+}
+
+#closos{
+    display: inline-block;
+}
+
+#hospitalet{
+    display: block;
 }
